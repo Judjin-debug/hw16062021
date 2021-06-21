@@ -54,7 +54,7 @@ public class MyList implements MyListMethods {
         };
         };
 
-    public int listFindmaxWithIterator () throws IllegalArgumentException {
+    public int listFindmaxWithIterator () {
         int listLength = this.list.size();
         if (list.size() == 0) throw new IllegalArgumentException("listFindmaxWithIterator error: list is empty");
         int max = list.get(0);
